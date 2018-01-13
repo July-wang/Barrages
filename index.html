@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barrage</title>
+</head>
+<body>
+    <canvas id="canvas" width="600" height="400" style="background:#000;">
+       your browser not support canvas!!!
+    </canvas>
+    <script src="barrage.js"></script> 
+    <script>
+        var data = [
+            {
+                name: 'Sam S Club',
+                value: 10000,
+                itemStyle: {
+                    fontSize: 60 , 
+                    color: '#fff' ,
+                }
+            },
+            {
+                name: 'Macys',
+                value: 6181
+            },
+            {
+                name: 'Amy Schumer',
+                value: 4386
+            },
+            {
+                name: 'Jurassic World',
+                value: 4055
+            },
+            {
+                name: 'Charter Communications',
+                value: 2467
+            },
+            {
+                name: 'Chick Fil A',
+                value: 2244
+            },
+            {
+                name: 'Planet Fitness',
+                value: 1898
+            },
+            {
+                name: 'Pitch Perfect',
+                value: 1484
+            },
+            {
+                name: 'Express',
+                value: 1112
+            },
+            {
+                name: 'Home',
+                value: 965
+            },
+            {
+                name: 'Johnny Depp',
+                value: 847
+            },
+            {
+                name: 'Lena Dunham',
+                value: 582
+            },
+            {
+                name: 'Lewis Hamilton',
+                value: 555
+            },
+            {
+                name: 'KXAN',
+                value: 550
+            },
+            {
+                name: 'Mary Ellen Mark',
+                value: 462
+            },
+            {
+                name: 'Farrah Abraham',
+                value: 366
+            },
+            {
+                name: 'Rita Ora',
+                value: 360
+            },
+            {
+                name: 'Serena Williams',
+                value: 282
+            },
+            {
+                name: 'NCAA baseball tournament',
+                value: 273
+            },
+            {
+                name: 'Point Break',
+                value: 265
+            }
+        ];
+            
+        var barrage = new Barrage ('canvas' , {
+
+            data: data
+        })
+    //    var a = barrage.linearMap(26 , [36 , 16] , [1 , 5])
+    //    console.log(barrage)
+    </script>
+</body>
+</html>
